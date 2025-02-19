@@ -1,4 +1,4 @@
 lenght = 10
 width = 20
-martkutxedi = (10*2 + 20*2)
+martkutxedi = (lenght*2 + width*2)
 print(martkutxedi)
