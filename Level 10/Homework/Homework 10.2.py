@@ -1,0 +1,12 @@
+print("enter any number")
+num1 = int(input())
+print("enter any number")
+num2 = int(input())
+print("enter any number")
+num3 = int(input())
+print("enter any number")
+num4 = int(input())
+print("enter any number ")
+num5 = int(input())
+
+print((num1 + num2 + num3 + num4 + num5) / 5)
