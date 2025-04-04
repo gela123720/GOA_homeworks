@@ -1,4 +1,4 @@
-name = input("enter your name")
-surname = input("enter your surname")
+name = input("enter your name:")
+surname = input("enter your surname:")
 
-print("hello " + name +  surname)
+print("hello " + name + surname)
