@@ -1,4 +1,7 @@
-for i in range(0,51,2):
-    print(i)
+count = 0
 
-print("there are 25 even numbers from 0 to 50")
+for i in range(0,51):
+    if i % 2 == 0:
+        count += 1
+
+print(count)
