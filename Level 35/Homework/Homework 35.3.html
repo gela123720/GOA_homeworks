@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>register</title>
+    </head>
+
+    <body style = "text-align: center;">
+        <header style = "background-color: beige; color: burlywood; font-size: 25; border: 50mm;">
+            <h1>Registration</h1>
+        </header>
+
+                <form>
+                    <label for = "Name">Name:</label> <br>
+                    <input id = "Name" type = "text" placeholder = "Name" name = "name" required> <br> <br>
+
+                    <label for = "Surname">Surname:</label> <br>
+                    <input id = "Surname" type = "text" placeholder = "Surname" name = "surname"> <br> <br>
+
+                    <label for = "Username">Username:</label> <br>
+                    <input id = "Username" type = "text" placeholder = "Username" name = "username" required> <br> <br>
+
+                    <label for = "Email">Email:</label> <br>
+                    <input id = "Email" type = "email" placeholder = "Email" name = "email" required> <br> <br>
+
+                    <label for = "Passowrd">Password:</label> <br>
+                    <input id = "Password" type = "password" placeholder = "Password" name = "password" required> <br> <br>
+
+                    <h4>Gender:</h4>
+
+                    <input id = "Male" type = "radio" name = "gender" value = "male" required>
+                    <label for = "Male">Male</label> <br>
+
+                    <input id = "Female" type = "radio" name = "gender" value = "female" required>
+                    <label for = "Female">Female</label> <br> <br>
+
+                    <h4>country:</h4>
+                        <select required>
+                            <option value = "GE" selected>Georgia</option>
+                            <option value = "US">USA</option>
+                            <option value = "RU">Russia</option>
+                        </select>
+
+                    <h4>Terms and policy:</h4>
+
+                    <input id = "Terms and policy" type = "checkbox" name = "TermsNpolicy" required>
+                    <label for = "Terms and policy">Agree</label> <br> <br>
+
+                    <button>Register</button>
+                </form>
+                
+                
+    </body>
+
+
+
+
+</html>
