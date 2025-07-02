@@ -1,0 +1,13 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+button {
+    background-color: crimson;
+    color: aqua;
+    border: 200px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
