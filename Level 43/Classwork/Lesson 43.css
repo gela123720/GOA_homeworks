@@ -1,0 +1,13 @@
+h2, h3 {
+    color: brown;
+    text-align: center;
+    background-color: lime;
+}
+
+button {
+    background-color: cyan;
+}
+
+div button {
+    background-color: green;
+}

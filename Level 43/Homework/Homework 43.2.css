@@ -1,0 +1,26 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+div h1 {
+    color: red;
+    background-color: darkmagenta;
+    font-size: xx-large;
+}
+
+div p {
+    color: darkblue;
+    background-color: cyan;
+    font-size: x-large;
+}
+
+div button {
+    background-color: deepskyblue;
+    font-size: xx-large;
+    cursor: pointer;
+    border: 420px;
+    border-radius: 420px;
+    width: 500px;
+    height: 609px;
+}

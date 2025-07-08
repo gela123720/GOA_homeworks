@@ -1,0 +1,26 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+div h1 {
+    color: aqua;
+    background-color: burlywood;
+    font-size: xx-large;
+}
+
+div p {
+    color: cadetblue;
+    background-color: blueviolet;
+    font-size: x-large;
+}
+
+div button {
+    background-color: red;
+    border: 500px;
+    border-radius: 100px;
+    width: 500px;
+    height: 500px;
+    font-size: xx-large;
+    cursor: pointer;
+}

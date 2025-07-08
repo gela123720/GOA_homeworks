@@ -1,0 +1,24 @@
+div {
+    color: aqua;
+    background-color: burlywood;
+    height: 500px;
+}
+
+div h1 {
+    color: cornflowerblue;
+    background-color: red;
+}
+
+div p {
+    color: brown;
+    background-color: black;
+}
+
+div button {
+    color: darkgreen;
+    background-color: blueviolet;
+    border-radius: 150px;
+    border: 100px;
+    cursor: pointer;
+    font-size: 100px;
+}
