@@ -1,0 +1,27 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+#main-h1 {
+    color: aqua;
+    background-color: aquamarine;
+    font-size: xx-large;
+}
+
+#main-button {
+    color: blue;
+    background-color: blueviolet;
+    font-size: x-large;
+    cursor: pointer;
+    width: 500px;
+    border: 100px;
+    border-radius: 200px;
+    border-color: bisque;
+}
+
+.main-p {
+    color: cornflowerblue;
+    background-color: coral;
+    font-size: larger;
+}

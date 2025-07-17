@@ -1,0 +1,22 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+#hello_h1 {
+    color: lime;
+    font-size: xx-large;
+    background-color: red;
+}
+
+.p_class {
+    color: blueviolet;
+    background-color: blue;
+    font-size: larger;
+}
+
+p {
+    color: aqua;
+    background-color: cornflowerblue;
+    font-size: medium;
+}

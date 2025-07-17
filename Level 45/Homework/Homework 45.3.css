@@ -1,0 +1,35 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+.headings {
+    color: lime;
+    font-size: x-large;
+}
+
+.paragraphs {
+    color: chartreuse;
+    font-size: larger;
+}
+
+#special-paragraph {
+    color: cyan;
+    background-color: chocolate;
+    font-size: medium;
+}
+
+#button {
+    color: aqua;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    font-size:xx-large;
+    cursor: pointer;
+}
+
+#cost {
+    color: red;
+    background-color: burlywood;
+    font-size: x-large;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+.main {
+    color: lime;
+    background-color: burlywood;
+    font-size: xx-large;
+}
+
+button.main {
+    cursor: pointer;
+    width: 500px;
+    border: 123px;
+    border-radius: 533px;
+    border-color: red;
+}
