@@ -1,0 +1,41 @@
+#mainheading {
+    color: lime;
+    background-color: aqua;
+    font-size: xx-large;
+}
+
+.headings {
+    color: blue;
+    background-color: burlywood;
+    font-size: x-large;
+}
+
+.paragraphs {
+    color: chocolate;
+    background-color: blueviolet;
+    font-size: larger;
+}
+
+#iphonesamsung {
+    border: 40140px;
+    font-size: xx-large;
+    color: antiquewhite;
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+
+.samsung {
+    border: 500px;
+    font-size: xx-large;
+    color: rgb(250, 1, 84);
+    background-color: rgb(238, 255, 0);
+    cursor: pointer;
+}
+
+.fakesamsung {
+    border: 420x;
+    font-size: xx-large;
+    color: rgb(221, 138, 29);
+    background-color: rgb(46, 247, 186);
+    cursor: pointer;
+}
