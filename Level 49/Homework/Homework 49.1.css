@@ -1,0 +1,16 @@
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 170px;
+}
+
+p {
+    color: #ff323b;
+    font-size: 30px;
+}
+
+button {
+    background-color: crimson;
+    border-radius: 15rem;
+    cursor: pointer;;
+}
+
