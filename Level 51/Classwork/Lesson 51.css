@@ -1,0 +1,36 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+h1 {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 5px;
+    text-transform: lowercase;
+    text-shadow: 7px -7px 2px rgb(0, 60, 255);
+    color: brown;
+    font-size: 5rem;
+}
+
+#lorem1 {
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px;
+    font-size: 2rem;
+    color: coral;
+}
+
+#lorem2 {
+    text-transform: uppercase;
+    color: blueviolet;
+    font-size: 0.9rem;
+}
+
+#lorem3 {
+    text-shadow: 18px 1rem 2px white;
+    color: #FFAAFF;
+    font-size: 50px;
+}

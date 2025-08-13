@@ -1,0 +1,35 @@
+body {
+    background-color: green;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    color: red;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: blue;
+    text-shadow: 5px 5px 2px yellow;
+    text-transform: capitalize;
+}
+
+h2 {
+  font-family: "Mr Bedfort", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: aqua;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+  color: chartreuse;
+  font-size: 1.6rem;
+}
