@@ -1,0 +1,34 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(255, 115, 0);
+    background-color: rgb(98, 0, 255);
+    font-size: 2.2rem;
+    text-decoration: overline dotted blueviolet;
+    cursor: pointer;
+    text-shadow: 4px 4px 10px rgb(0, 26, 255);
+}
+
+a {
+    font-size: xx-large;
+}
+
+p {
+    color: yellow;
+    font-size: x-large;
+}
+
+h1 {
+    color: red;
+    background-color: aqua;
+    font-size: xx-large;
+}
+
+h2 {
+    color: brown;
+    background-color: burlywood;
+    font-size: xx-large;
+}

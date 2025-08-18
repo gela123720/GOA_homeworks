@@ -1,0 +1,23 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(0, 119, 255);
+    background-color: rgb(255, 0, 200);
+    font-size: 19px;
+    text-decoration: underline dashed;
+    cursor: pointer;
+    text-shadow: 7px 7px 5px red;
+}
+
+p {
+    color: chocolate;
+    font-size: x-large;
+}
+
+h1 {
+    color: red;
+    background-color: brown;
+}
