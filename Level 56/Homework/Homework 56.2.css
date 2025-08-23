@@ -1,0 +1,27 @@
+body {
+    background-color: antiquewhite;
+}
+
+ol {
+    list-style-image: url("./Screenshot\ 2025-08-23\ 112349.png");
+    list-style-position: inside;
+}
+
+form {
+    background-color: gray;
+    text-align: center;
+}
+
+input {
+    background-color: rebeccapurple;
+    color: aqua;
+    font-size: xx-large;
+    border: 5px;
+    border-radius: 5px;
+}
+
+label {
+    color: blue;
+    background-color: brown;
+    font-size: 5rem;
+}

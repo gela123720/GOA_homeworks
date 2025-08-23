@@ -1,0 +1,21 @@
+body {
+    background-color: green;
+}
+
+#ollist1 {
+    list-style-type: georgian;
+}
+
+#ullist1 {
+    list-style-position: inside;
+}
+
+#ollist2 {
+    list-style-image: url("./Screenshot\ 2025-08-23\ 112349.png");
+}
+
+#ullist2 {
+    list-style-type: georgian;
+    list-style-position: inside;
+    list-style-image: url("./Screenshot\ 2025-08-23\ 112349.png");
+}

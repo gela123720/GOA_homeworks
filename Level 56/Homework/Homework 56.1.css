@@ -1,0 +1,8 @@
+ul {
+    list-style-type: georgian;
+    list-style-position: inside;
+    color: aqua;
+    background-color: blueviolet;
+    text-shadow: 5px 5px 2px red;
+    font-size: xx-large;
+}
