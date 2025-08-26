@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(132, 0, 255);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 500px;
+    height: 570px;
+    text-align: left;
+    padding: 30px;
+}
+
+label {
+    color: rgb(119, 0, 255);
+}
+
+input {
+    width: 430px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color: cornsilk;
+    border: 3px solid cyan;
+}
+
+.radio {
+    width: auto;
+    height: auto;
+}
+
+button {
+    width: 430px;
+    height: 30px;
+    background-color: rgba(190, 111, 255, 0.616);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    text-align: left;
+    padding: 30px;
+}
+
+input {
+    width: 330px;
+    height: 35px;
+}
+
+button {
+    width: 330px;
+    height: 30px;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}

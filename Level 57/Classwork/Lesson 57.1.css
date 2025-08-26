@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(79, 205, 226);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+form {
+    background-color: white;
+    width: 470px;
+    height: 280px;
+    text-align: left;
+    padding: 40px;
+}
+
+h2 {
+    color: rgb(79, 207, 228);
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+button {
+    width: 400px;
+    height: 38px;
+    background-color: rgb(79, 207, 228);
+    border: none;
+    color: white;
+}
