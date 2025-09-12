@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    background-color: rgb(4, 235, 235);
+    padding: 123px;
+    color: red;
+    font-size: xx-large;
+}
+
+div {
+    background-color: blueviolet;
+    margin-top: 232px;
+}
+
+p {
+    color: aqua;
+    background-color: chocolate;
+    border: 50px solid blue;
+}
