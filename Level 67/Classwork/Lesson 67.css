@@ -1,0 +1,23 @@
+/* box sizing იმას ნიშნავს რომ ყველაფერს აკონტროლებ არსებულ ელემენტში, border-დან დაწყვებული content-ით დამთავრებული. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* თუ padding-ს დავუწერთ div-ს ,border box-ის გარეშე მაშინ ეგ div-ი გადდიდება padding-ის გამო, თუ border box-ს დავუწერთ მაშინ იგი არ გადდიდება უბრალოდ contenct დაპარავდება მაგრამ თვითონ ზომა იგივე იქნება */

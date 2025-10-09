@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+}
+
+#main_div {
+    background-color: white;
+    height: 570px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 200px;
+    position: relative;
+    left: 25px;
+    top: 50px;
+    height: 130px;
+}
+
+#div_1 {
+    background: rgba(128, 128, 128, 0);
+    background: linear-gradient(180deg, rgba(128, 128, 128, 1) 0%, rgba(69, 67, 67, 1) 100%);
+    width: 267px;
+    padding: 0px 8px;
+}
+
+#div_2 {
+    background: #9e0000;
+    background: linear-gradient(180deg, rgba(158, 0, 0, 1) 0%, rgba(214, 109, 109, 1) 100%);
+    width: 267px;
+    padding: 0px 8px;
+}
+
+#div_3 {
+    background: #c98e02;
+    background: linear-gradient(180deg, rgba(201, 142, 2, 1) 0%, rgba(255, 78, 3, 1) 100%);
+    width: 267px;
+    padding: 0px 8px;
+}
+
+p {
+    font-size: 28px;
+}
+
+#car1 {
+    position: relative;
+    top: 30px;
+    left: 90px;
+    color: rgb(74, 83, 83);
+}
+
+#car2 {
+    position: relative;
+    top: 30px;
+    left: 65px;
+    color: #f72626;
+}
+
+#car3 {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    color: orange;
+}
+
+h6 {
+    position: relative;
+    top: 100px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(127, 134, 134);
+}
+
+button {
+    position: relative;
+    top: 160px;
+    left: 50px;
+    width: 150px;
+    height: 45px;
+    background-color: dimgray;
+    border: 3px solid rgb(66, 62, 62);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#button1:hover {
+    background-color: rgb(134, 134, 134);
+}
+
+#button2 {
+    background-color: maroon;
+    border: 3px solid red;
+}
+
+#button2:hover {
+    background-color: rgb(245, 94, 94);
+}
+
+#button3 {
+    background-color: orange;
+    border: 3px solid chocolate;
+}
+
+#button3:hover {
+    background-color: gold;
+}

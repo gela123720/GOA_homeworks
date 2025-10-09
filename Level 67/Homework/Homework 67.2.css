@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: rgb(255, 0, 234);
+    width: 367px;
+    height: 367px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
