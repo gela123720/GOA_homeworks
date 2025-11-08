@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height:100vh;
+    padding-top: 70px;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(190, 0, 0);
+    color: yellow;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid blue;
+}
+nav{
+    display:flex;
+    gap:90px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: yellow;
+    transform:scale(110%)
+}
+
+main {
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/id/1412765628/vector/abstract-speed-business-start-up-launching-product-with-electric-car-and-city-concept-hitech.jpg?s=612x612&w=0&k=20&c=ZcK2rLxON2s1q-dFKnxlUq2mwhF9hG1LLGw7pVrIbeE=);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width:110px;
+    height:30px; 
+    transition: 0.5s;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    display: inline-block;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button a:hover{
+    transform:scale(110%);
+    color:yellow;
+}
+
+button:hover{
+    transform: scale(110%);
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#p1 {
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+#p2 {
+    width: 500px;
+    padding-top: 30px;
+}
+
+#button1 {
+    margin-top: 100px;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#button1:hover {
+    background-color: transparent;
+}
+
+#b1 {
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+#p3 {
+    padding-top: 40px;
+}
+
+ul {
+    color: white;
+    padding-top: 10px;
+    position: relative;
+    left: 50px;
+}
+
+#div1 {
+    position: absolute;
+    top: 650px;
+    left: 650px;
+}
+
+ol {
+    color: white;
+    padding-top: 7px;
+    position: relative;
+    left: 50px;
+}
+
+#div2 {
+    position: absolute;
+    top: 698px;
+    right: 650px;
+}
+
+#p5 {
+    font-size: 20px;
+}

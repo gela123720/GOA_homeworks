@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(165, 163, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Main_Div {
+    width: 1650px;
+    height: 800px;
+    padding: 70px 30px 70px 95px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p {
+    color: white;
+    position: relative;
+    top: 50px;
+    right: 98px;
+    font-weight: 600;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    position: relative;
+    left: 100px;
+    font-weight: 600;
+}
+
+#Japan {
+    height: 300px;
+    width: 450px;
+    background-image: url(Images/Japan.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Dubai {
+    height: 300px;
+    width: 450px;
+    background-image: url(Images/Dubai.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Paris {
+    height: 300px;
+    width: 450px;
+    background-image: url(Images/Paris.avif);
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Tbilisi {
+    height: 300px;
+    width: 450px;
+    background-image: url(Images/Tbilisi.webp);
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#New_York {
+    height: 300px;
+    width: 450px;
+    background-image: url(Images/New\ York.jpg);
+    background-size: contain;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#New_York h1 {
+    width: 220px;
+}
+
+#South_Korea {
+    height: 300px;
+    width: 450px;
+    background-image: url(Images/South\ Korea.jpg);
+    background-size: contain;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#South_Korea h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+#South_Korea p {
+    position: relative;
+    left: -30px;
+}
