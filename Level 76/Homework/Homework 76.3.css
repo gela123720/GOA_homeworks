@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main_div {
+    width: 450px;
+    height: 230px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 29px;
+}
+
+#small_div {
+    width: 130px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 27px 0px 0px 27px;
+    font-size: 23px;
+    background-color: gray;
+    color: white;
+}
