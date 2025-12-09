@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent {
+    width: 1700px;
+    height: 800px;
+
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    grid-template-rows: repeat(6 , 1fr);
+    gap: 7px;
+}
+
+#d1 {
+    grid-column: 1 / 13;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d2 {
+    grid-column: 1 / 7;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d3 {
+    grid-column: 7 / 13;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d4 {
+    grid-column: 1 / 5;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d5 {
+    grid-column: 5 / 9;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d6 {
+    grid-column: 9 / 13;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d7{
+    grid-column: 1 / 4;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d8 {
+    grid-column: 4 / 7;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d9 {
+    grid-column: 7 / 10;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d10 {
+    grid-column: 10 / 13;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d11 {
+    grid-column: 1 / 3;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d12 {
+    grid-column: 3 / 5;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d13 {
+    grid-column: 5 / 7;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d14 {
+    grid-column: 7 / 9;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d15 {
+    grid-column: 9 / 11;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d16 {
+    grid-column: 11 / 13;
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d17 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d18 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d19 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d20 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d21 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d22 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d23 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d24 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d25 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d26 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d27 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+
+#d28 {
+    background-color: rgb(255, 215, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}

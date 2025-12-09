@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent {
+    width: 1300px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(12 , 1fr);
+    grid-template-columns: repeat(6 , 1fr);
+    gap: 15px;
+}
+
+#d1 {
+    grid-row: 1 / 13;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d2 {
+    grid-row: 1 / 7;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d3 {
+    grid-row: 7 / 13;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d4 {
+    grid-row: 1 / 5;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d5 {
+    grid-row: 5 / 9;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d6 {
+    grid-row: 9 / 13;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d7{
+    grid-row: 1 / 4;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d8 {
+    grid-row: 4 / 7;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d9 {
+    grid-row: 7 / 10;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d10 {
+    grid-row: 10 / 13;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d11 {
+    grid-row: 1 / 3;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d12 {
+    grid-row: 3 / 5;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d13 {
+    grid-row: 5 / 7;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d14 {
+    grid-row: 7 / 9;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d15 {
+    grid-row: 9 / 11;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d16 {
+    grid-row: 11 / 13;
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d17 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d18 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d19 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d20 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d21 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d22 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d23 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d24 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d25 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d26 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d27 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+#d28 {
+    background-color: rgb(155, 206, 11);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
