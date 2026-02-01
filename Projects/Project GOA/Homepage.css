@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hanken Grotesk;
+}
+
+body {
+    height: 100vh;
+    padding-top: 89px;
+}
+
+header {
+    height: 89px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    padding: 30px 50px 30px 50px;
+}
+
+#div0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#image_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#p1 {
+    font-size: 30px;
+}
+
+#p2 {
+    position: relative;
+    right: 20px;
+    bottom: 12px;
+}
+
+header img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+#father_div {
+    height: 89px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+a:hover {
+    color: rgb(0, 102, 5);
+    transition: 0.3s;
+}
+
+main {
+    width: 100%;
+    background-color: white;
+}
+
+#div3 {
+    width: 100%;
+    padding: 100px 50px;
+    background-image: url(Images/GOA\ 2.5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1000px 60px -12px inset, rgba(0, 0, 0, 0.8) 0px 18px 36px -18px inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#p3 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+#p4 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#p5 {
+    font-size: 27px;
+}
+
+#img1 {
+    height: 300px;
+    border-radius: 15px;
+}
+
+.same {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: start;
+}
+
+.same2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+#div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 50px;
+}
+
+#father_div2 {
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+}
+
+#p6 {
+    font-size: 20px;
+}
+
+#img2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#p9 {
+    font-size: 35px;
+}
+
+#p10 {
+    width: 350px;
+    font-size: 20px;
+}
+
+#img3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#p11 {
+    font-size: 35px;
+}
+
+#p12 {
+    width: 350px;
+    font-size: 20px;
+}
+
+footer {
+    padding: 100px 0px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#p13 {
+    color: rgb(137, 150, 160);
+    text-align: center;
+}
+
+#goa2 {
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#div11 a {
+    font-size: 70px;
+}
+
+#div11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#hamburger {
+    display: none;
+}
+
+@media(max-width: 1329px) {
+    #father_div {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+}
+
+@media(max-width: 1000px) {
+    footer {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #p3 {
+        font-size: 50px;
+    }
+
+    #p4 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 835px) {
+    .same {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 410px) {
+    #div11 a {
+        font-size: 40px;
+    }
+
+    header {
+        padding: 0px 10px;
+    }
+
+    #div0 {
+        gap: 10px;
+    }
+
+    #p2 {
+        right: 12px;
+    }
+
+    #div3 {
+        padding: 50px 15px;
+    }
+}
