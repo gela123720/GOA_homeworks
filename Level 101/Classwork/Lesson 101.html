@@ -7,7 +7,43 @@
 </head>
 <body>
     <script>
-        
+        // 1) truthy არის თუ რაიმე ცვლადი ან სხვა რაღაცა არის true ანუ მართალი ხოლო falsy არის თუ რაიმე ცვლადი ან სხვა რაღაცა არის false ანუ არამართალი
+
+        // 2) ternary operator არის შემოკლებული ვერსია if else-ის და მისი გამოყენება საჭიროა ? და : სიმბოლოებით
+
+        // 3)
+        let age = 20;
+
+        age >= 18 ? console.log("Adult") : console.log("Minor")
+
+        // 4)
+        let number = -5;
+
+        number >= 0 ? console.log("Positive") : console.log("Negative")
+
+        // 5)
+        let temp = 2
+
+        if (temp < 15) {
+            console.log("Cold")
+        } else if (temp >= 15 && temp <= 25) {
+            console.log('Warm')
+        } else {
+            console.log("Hot")
+        }
+
+        // 6)
+        let num1 = 1
+        let num2 = 5
+        let num3 = 4
+
+        if (num1 > num2 && num1 > num2) {
+            console.log(num1)
+        } else if (num2 > num1 && num2 > num3) {
+            console.log(num2)
+        } else if (num3 > num1 && num3 > num2) {
+            console.log(num3)
+        }
     </script>
 </body>
 </html>
